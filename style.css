@@ -1,0 +1,168 @@
+body,
+html {
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    color: black;
+    
+}
+
+
+.button,.inline-header,.small-caps,header a{
+    font-weight:700
+}
+.inline-header{
+    font-family:sans-serif;
+}
+.small-caps{
+    font-family:sans-serif;
+    font-size:.8em;
+    line-height:2;
+    text-transform:uppercase
+}
+.small-section-title{
+    font-family:sans-serif;
+    font-weight:700;
+    position:absolute;
+    width:10.25em;
+    height:2.75em;
+    margin-top:1.5em;
+    padding-top:.8em;
+    font-size:1em;
+    text-transform:uppercase;
+    top:0
+}
+ol.list-reset li,ul.list-reset li{
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.button{
+    width:128px;
+    padding-top:12px;
+    padding-bottom:11px;
+    border-radius:4px;
+    font-size:12px;
+    line-height:1;
+    cursor:pointer;
+}
+.button:hover{
+    background:#fff;
+}
+header{
+    overflow-x:hidden;
+    position:fixed;
+    z-index:1000;
+    top:0;
+    right:0;
+    left:0;
+    height:58px;
+    background:#fff;
+    width: 100%
+}
+header a:hover{
+    color: green;
+}
+header ul.list-reset{
+    top:0;
+    bottom:0;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+header ul.list-reset li{
+    display:inline-block;
+    height:100%;
+    padding-right:.2em;
+}
+header ul.list-reset li.selected a{
+    color:green;
+}
+header .row{
+    height:58px;
+    padding-top:0;
+    padding-bottom:0;
+}
+header a{
+    font-family:sans-serif;
+    display:inline-block;
+    height:100%;
+    padding:0 1em 0 0;
+    color: black;
+    font-size:1em;
+    line-height:58px;
+}
+header a:first-child{
+    margin-left:0;
+}
+@media only screen and (max-width:529px){
+    header a{
+        font-size:0.75em;
+    }
+    header{
+        text-align:center;
+    }
+    header .row{
+        padding:0;
+    }
+}
+.homepage {
+    background-image: url('img/Cityscape.jpeg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.who-are-we {
+    background-image: url('img/CityScape1.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.navbar {
+    background-color: white;
+    /*text-align: center;*/
+}
+.jumbotron {
+    background-color: white;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    opacity: .95;
+}
+.main-info {
+    padding-top: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    /*padding-left: 50px;*/
+    font-weight:bold;
+    padding-left: 0;
+    padding-right:10px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.display-4 {
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.benefits {
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.nav-item {
+    float: right;
+}
+.clear {
+    clear:both;
+}
+.main-heading {
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
